@@ -1,0 +1,52 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  max-width: 400px;
+  margin: auto;
+}
+
+.card-header {
+  position: relative;
+  padding: 1rem;
+}
+
+.card-header h1 {
+  font-size: 1.5rem;
+  flex-grow: 1;
+  text-align: center;
+  margin: 0;
+}
+
+.card-header .fas {
+  font-size: 1.5rem;
+}
+
+.bordaIconeLogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #ccc; /* Cinza */
+  border-radius: 50%;
+}
+
+.bordaIconeLogin .fas {
+  font-size: 1.5rem;
+  color: darkorange; /* Cor do ícone (branca, pode ser alterada conforme necessidade) */
+}
+
+.card-body {
+  background-color: #ffb347;
+}
+
+.saldo {
+  color: #8b5e34;
+}
+
+button {
+  font-size: 1rem;
+  margin-top: 10px;
+}
